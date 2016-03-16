@@ -1,9 +1,11 @@
 body {
-  font-family: 'Helvetica Neue', Roboto, Arial
+  font-family: 'Helvetica Neue', Roboto, Arial;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .headpic {
-  margin:auto;
-  width:20%;
-  height:20%;
+  width:12%;
+  height:12%;
 }
