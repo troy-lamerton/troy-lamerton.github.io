@@ -1,11 +1,36 @@
 body {
   font-family: 'Helvetica Neue', Roboto, Arial;
-  text-align:center;
+  
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b6b6b6;
+}
+
+div.headpic {
+  width:12%;
+  height:12%;
   margin-left:auto;
   margin-right:auto;
 }
 
-.headpic {
-  width:12%;
-  height:12%;
+div.headpic img {
+  border: 2px solid gray;
+}
+
+p.img-caption {
+  margin-top:2px;
+  font: italic 0.8em Arial;
+}
+
+.blog-links {
+  width:50%;
+
+}
+.blog-links  a {
+  padding: 3px;
+  display: inline-block;
+  list-style: none;
+  border-radius: 5px;
+  background-color: aqua;
 }
