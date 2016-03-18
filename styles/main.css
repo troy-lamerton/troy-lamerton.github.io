@@ -1,12 +1,13 @@
 body {
+  background-color: #ddd;
   font-family: 'Helvetica Neue', Roboto, Arial;
-  
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #b6b6b6;
 }
-
+h1 {
+  color: #0396ad;
+}
 div.headpic {
   width:12%;
   height:12%;
@@ -23,14 +24,22 @@ p.img-caption {
   font: italic 0.8em Arial;
 }
 
+div.blog-text p {
+  font-family: 'PT Serif', serif;
+}
+
 .blog-links {
   width:50%;
-
+}
+.highlight {
+  text-shadow: 1px solid brown;
 }
 .blog-links  a {
   padding: 3px;
+  margin-bottom: 3px;
   display: inline-block;
-  list-style: none;
   border-radius: 5px;
-  background-color: aqua;
+  background-color: #0396ad;
+  font-weight: bold;
+  text-decoration: none;
 }
