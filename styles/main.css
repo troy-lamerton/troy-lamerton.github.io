@@ -5,6 +5,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 h1 {
   color: #0396ad;
 }
@@ -14,9 +15,12 @@ div.headpic {
   margin-left:auto;
   margin-right:auto;
 }
-
 div.headpic img {
   border: 2px solid gray;
+}
+
+article a {
+  color: darkorange;
 }
 
 p.img-caption {
@@ -36,10 +40,91 @@ div.blog-text p {
   margin-bottom: 3px;
   display: inline-block;
   border-radius: 5px;
-  background-color: #0396ad;
+  background-color: transparent;
+  border: 1px solid #0396ad;
+
   font-weight: bold;
   text-decoration: none;
+
+  -o-transition: .3s;
+  -ms-transition: .3s;
+  -moz-transition: .3s;
+  -webkit-transition: .3s;
+  transition:.3s;
+}
+.blog-links a:visited {
+  color: #0396ad;
 }
 .blog-links a:hover {
-  background: #04dbdb;
+  background: #0396ad;
+  color: white;
+}
+
+* { /* DEBUG RED BORDERS */
+  /* border: 1px solid red !important; */
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.wishlist {
+  text-align: center;
+}
+.black {
+  background-color: black;
+}
+.row {
+  width: 100%;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.row img {
+  width: 100%;
+  height: 100%;
+}
+.row div {
+  padding: 5px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
 }
