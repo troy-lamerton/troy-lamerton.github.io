@@ -31,9 +31,6 @@ div.blog-text p {
 .blog-links {
   width:50%;
 }
-.highlight {
-  text-shadow: 1px solid brown;
-}
 .blog-links  a {
   padding: 3px;
   margin-bottom: 3px;
@@ -42,4 +39,7 @@ div.blog-text p {
   background-color: #0396ad;
   font-weight: bold;
   text-decoration: none;
+}
+.blog-links a:hover {
+  background: #04dbdb;
 }
