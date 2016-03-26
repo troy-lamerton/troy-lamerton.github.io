@@ -1,40 +1,51 @@
 <!DOCTYPE html>
-  <head>
-    <title>Udacity reflection 2 - HTML, CSS and DOM blog 2</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
-  </head>
-  
-  <body>
-    <header>
-      <h1>HTML, CSS and DOM blog 2</h1>
-      <h2>...</h2>
-      <h3>26 March 2016</h3>
-    </header>
-    <hr>
-    <div class="blog-text">
-      <section>
-        <h3>What is grid based design?</h3>
-        <p>
-          Using a grid structure with content inside grid elements can be beneficial in the layout of an html page. This is called grid based design. The simplest form of grid based design is with a table where elements line up neatly in columns and rows.
-          <br>If there are many different sized areas, the flex model can be used. In a flex-box, columns and rows can be different in size, and will be layed out one after another (often on top of each other). This model can be used to have a bunch of rows, with columns inside them of different widths.
-        </p>
-      </section>
-      <section>
-        <h3>Responsive webpages! The way of the future?</h3>
-        <p>
-          <br>With people browsing the internet more on tablets and mobile phones than ever before, web developers are faced with the challenge of designing a webpage to suit various screen sizes.
-          <br>Responsive webpages can solve this issue. They allow a developer to change the layout of a page based on the size of viewers screen (in pixels).
-        </p>
-      </section>
-      <section>
-        <h3>Semantic structure</h3>
-        <p>
-          ...
-        </p>
-      </section>
-      Any other points you found interesting and want to reflect on
-    </div>
-  </body>
+<html lang="en">
+<head>
+  <title>Udacity reflection 2 - HTML, CSS and DOM blog 2</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <h1>HTML, CSS and DOM blog 2</h1>
+    <h2>Structuring the code and the page</h2>
+    <h3>26 March 2016</h3>
+  </header>
+  <nav class="blog-links">
+    <a href="../index.html" title="Back to blog homepage">&#8629; Back to homepage</a>
+  </nav>
+  <div class="blog-text">
+    <section>
+      <h3>What is grid based design?</h3>
+      <p>
+        Using a grid structure with content inside grid elements can be beneficial in the layout of an html page. This is called grid based design. The simplest form of grid based design is with a table where elements line up neatly in columns and rows.
+        <br>If there are many different sized areas, the flex model can be used. In a flex-box, columns and rows can be different in size, and will be layed out one after another (often on top of each other). This model can be used to have a bunch of rows, with columns inside them of different widths.
+      </p>
+    </section>
+    <section>
+      <h3>Responsive webpages! The way of the future?</h3>
+      <p>
+        With people browsing the internet more on tablets and mobile phones than ever before, web developers are faced with the challenge of designing a webpage to suit various screen sizes.
+        <br>Responsive webpages can solve this issue. They allow a developer to change the layout of a page based on the size of viewers screen (in pixels).
+      </p>
+    </section>
+    <section>
+      <h3>Semantic structure</h3>
+      <p>
+        When writing an HTML page, using elements for their intended purpose is good semantic structure. This means using <code>&lt;header&gt;...&lt;/header&gt;</code> for a section is introducing the section below. Basically, the tag being used should reflect the type of content that is to follow.
+      </p>
+    </section>
+    <section>
+      <h3>Extra interesting things</h3>
+      <p>
+        It's possible to reset the CSS across all browsers and then work on a level playing field, with less fear that your page will look different on the different browsers.
+      </p>
+    </section>
+  </div>
+  <footer class="blog-links">
+    <a href="../index.html" title="Back to blog homepage">&#8629; Back to homepage</a>
+  </footer>
+</body>
 </html>

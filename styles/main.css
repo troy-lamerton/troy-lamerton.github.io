@@ -5,15 +5,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+footer {
+  text-align: center;
+}
 
 h1 {
   color: #0396ad;
 }
 div.headpic {
-  width:12%;
-  height:12%;
-  margin-left:auto;
-  margin-right:auto;
+  width: 12%;
+  height: 12%;
+  margin-left: auto;
+  margin-right: auto;
 }
 div.headpic img {
   border: 2px solid gray;
@@ -61,6 +64,11 @@ div.blog-text p {
   color: white;
 }
 
+footer.blog-links {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 * { /* DEBUG RED BORDERS */
   /* border: 1px solid red !important; */
 }
