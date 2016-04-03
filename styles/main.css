@@ -1,16 +1,17 @@
 .social img {
-  width: 50%;
-  height: 50%;
   max-height: 32px;
   max-width: 32px;
 }
 .social a {
-  padding-bottom: 12px;
+  margin-bottom: 0.5rem;
+  width:100%;
 }
 
 article {
+  padding: 1rem;
+  padding-bottom:0.5rem; 
   border-radius: 1rem;
   border: 1px solid gray;
   margin-bottom: 1.5rem;
-  padding: 0.5rem;
+
 }
