@@ -4,3 +4,13 @@
   max-height: 32px;
   max-width: 32px;
 }
+.social a {
+  padding-bottom: 12px;
+}
+
+article {
+  border-radius: 1rem;
+  border: 1px solid gray;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+}
