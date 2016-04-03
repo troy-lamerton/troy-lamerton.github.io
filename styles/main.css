@@ -1,3 +1,10 @@
+body {
+  background-color: #ddd;
+}
+
+.social {
+  margin-top: 20px;
+}
 .social img {
   max-height: 32px;
   max-width: 32px;
@@ -5,7 +12,9 @@
 .social a {
   margin-bottom: 0.5rem;
   width:100%;
+  background-color: #fff;
 }
+
 
 article {
   padding: 1rem;
@@ -14,4 +23,16 @@ article {
   border: 1px solid gray;
   margin-bottom: 1.5rem;
 
+  background-color: #eee;
+}
+article .button {
+  background-color: #73bbd3;
+}
+
+article > h3 {
+  font-size: 2em;
+}
+
+.inline {
+  display: inline-block;
 }
