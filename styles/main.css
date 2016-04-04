@@ -2,6 +2,9 @@ body {
   background-color: #ddd;
 }
 
+.top {
+  margin-top: 1.5rem;
+}
 .social {
   margin-top: 20px;
 }
@@ -21,11 +24,19 @@ body {
 }
 .navbar a {
   text-decoration: none;
-}
-.navbar > div {
-  background-color: #FFbbd3;
-  margin-bottom:0.2rem;
   text-align: center;
+  font-size: 1.8rem;
+  color: #0396ad;
+
+  background-color: transparent;
+  border: 2px solid #0396ad;
+
+  margin-bottom:0.2rem;
+  border-radius: 0.7rem;
+}
+
+.navbar > a:hover {
+  background-color: white;
 }
 
 
@@ -44,6 +55,10 @@ article .button {
 
 article > h3 {
   font-size: 2em;
+}
+
+article > p {
+  font-family: 'PT Serif', serif;
 }
 
 .inline {
