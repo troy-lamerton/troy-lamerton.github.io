@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
+  <!-- Font for blog content -->
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../styles/main.css" type="text/css" />
 </head>
 <body>
   <div class="container">
 
-    <header class="row">
+    <header class="top row">
       <div class="two-thirds column">
         <img class="inline" src="http://www.gravatar.com/avatar/0eb38fc6ee95b244b8d45757ee242763" alt="Yep, that's my face"/>
         <h1 class="inline">Troy Lamerton</h1>
@@ -21,19 +23,14 @@
         <br><span><a class="button" href="https://www.twitter.com/troylamerton"><img src="https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png" alt="Twitter" />Twitter</a></span>
       </div>
     </header>
+
     <nav class="navbar row">
-      <div class="one-third column">
-        <a href="http://troy-lamerton.github.io/">Home</a>
-      </div>
-      <div class="one-third column">
-        <a href="http://troy-lamerton.github.io/">Tech posts</a>
-      </div>
-      <!--div class="one-third column"-->
-        <a class="one-third column" href="http://troy-lamerton.github.io/">Cultural posts</a>
-      
+        <a class="one-third column" href="http://troy-lamerton.github.io/">Home</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/tech.html">Tech posts</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/culture.html">Cultural posts</a>
     </nav>
-    
-    <article class="row blog-text">
+
+    <article class="row">
       <h3>Responsive sites for the win!</h3>
       <h4>3 April 2016</h4>
       <p>
@@ -41,8 +38,6 @@
       </p>
       <p>
         Another technique which has become important is mobile first design. This is, as the name suggests, about designing the site for people using a mobile phone, before deciding how it will be viewed on larger screens. Depending on the site, up to two thirds of people will be viewing it on their mobile phone. The fact that this is increasing further promotes the use of mobile first design.
- What frameworks are, and their pros and cons.
- What a wireframe is and why we use it.
       </p>
       <p>
         Something that helps with these techniques is the use of a framework. A web framework is a bunch of files that have styles and rules, which can be used by your website. Rather than writing all the styling and layout display, the framework can be called upon for what you want instead. Using a framework does have a few downsides though.
@@ -56,13 +51,31 @@
           <tbody>
             <tr>
               <td>Quickly make the page prettier</td>
-              <td>Popular frame</td>
+              <td>A lot of the downloaded code may not be used</td>
+            </tr>
+            <tr>
+              <td>Reduce time spent on generic issues</td>
+              <td>May have the desired effect for a specific site</td>
             </tr>
           </tbody>
         </table>
       </p>
+      <p class="row">
+        A wireframe is a simplified sketch of a webpage. We use wireframes to plan the layout of a webpage before building it. While building the webpage, the wireframe is used as a guide for the structure of the underlying code.
+        <div class="row">
+          <img class="six columns" src="http://troy-lamerton.github.io/images/wireframe-index-page-desktop.jpg" />
+          <img class="six columns" src="http://troy-lamerton.github.io/images/wireframe-index-page-mobile.jpg" />
+        </div>
+        <div>
+          <img class="six columns" src="http://troy-lamerton.github.io/images/wireframe-blog-page-desktop.jpg" />
+          <img class="six columns" src="http://troy-lamerton.github.io/images/wireframe-blog-page-mobile.jpg" />
+        </div>
+        An aspect of my wireframe which was difficult to implement was the social media links. I wasn't able to get the word 'Twitter' at the same height as the twitter logo, despite playing with padding's margin's and various other properties.
 
-      <a class="button" href="">Read more tech posts</a>
+        I changed my mind about the placement of the 'Read more' button, so it would be in a more eye-catching place. After seeing my peers homepages, I also added a navigation bar which was not in the wireframe.
+      </p>
+
+      <a class="button" href="http://troy-lamerton.github.io/blog/tech.html">Read more tech posts</a>
     </article>
 
   </div>
