@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript Basics - Troy Lamerton's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
+  <!-- Font for blog content -->
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../styles/main.css" type="text/css" />
+</head>
+<body>
+  <div class="container">
+
+    <header class="top row">
+      <div class="two-thirds column">
+        <img class="inline" src="http://www.gravatar.com/avatar/0eb38fc6ee95b244b8d45757ee242763" alt="Yep, that's my face"/>
+        <h1 class="inline">Troy Lamerton</h1>
+      </div>
+      <div class="one-third column social">
+        <span><a class="button" href="https://github.com/troy-lamerton/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />GitHub</a></span>
+        <br><span><a class="button" href="https://www.twitter.com/troylamerton"><img src="https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png" alt="Twitter" />Twitter</a></span>
+      </div>
+    </header>
+
+    <nav class="navbar row">
+        <a class="one-third column" href="http://troy-lamerton.github.io/">Home</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/tech.html">Tech posts</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/culture.html">Cultural posts</a>
+    </nav>
+
+    <article class="row">
+      <h3>Javascript Basics</h3>
+      <h4>7 April 2016</h4>
+      
+      <p>
+        A website without javascript is like a house without electricity. You can walk around the house and it looks nice, but if you try to turn anything on, nothing happens.
+        <br>Javascript is the most like a traditional programming language when it is compared to HTML and CSS. When it comes to a website, the HTML is the foundational structure and CSS is the aesthetics. Javascript powers the interactive parts of websites. When you open your notifications on Facebook or expand a tweet on Twitter, it's most likely Javascript that's at work.
+      </p>
+      <p>
+        The uniqueness of Javascript (compared to HTML and CSS) is how it can make decisions about what to do. This is like waking up in the morning. Depending on a few conditions will affect what you do. Am I working this morning? Do I have nothing on? Am I still tired from last night? If I [have work] I'll [get up], otherwise I will not [get up] and if I am also [tired from last night] I will [sleep in].
+      </p>
+      <p>
+        In Javascript this looks like:
+        <pre style='color:#000020;background:#f6f8ff;'><span style='color:#200080; font-weight:bold; '>var</span> haveWork <span style='color:#308080; '>=</span> <span style='color:#0f4d75; '>false</span><span style='color:#406080; '>;</span>
+<span style='color:#200080; font-weight:bold; '>var</span> tiredStill <span style='color:#308080; '>=</span> <span style='color:#0f4d75; '>true</span><span style='color:#406080; '>;</span>
+
+wakeUp <span style='color:#308080; '>=</span> <span style='color:#200080; font-weight:bold; '>function</span> <span style='color:#308080; '>(</span><span style='color:#308080; '>)</span> <span style='color:#406080; '>{</span>
+  <span style='color:#200080; font-weight:bold; '>if</span> <span style='color:#308080; '>(</span>haveWork<span style='color:#308080; '>)</span> <span style='color:#406080; '>{</span>
+    getUp<span style='color:#308080; '>(</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+  <span style='color:#406080; '>}</span>
+  <span style='color:#200080; font-weight:bold; '>else</span> <span style='color:#406080; '>{</span>
+    <span style='color:#200080; font-weight:bold; '>if</span> <span style='color:#308080; '>(</span>tiredStill<span style='color:#308080; '>)</span> <span style='color:#406080; '>{</span>
+      sleepIn<span style='color:#308080; '>(</span><span style='color:#308080; '>)</span><span style='color:#406080; '>;</span>
+    <span style='color:#406080; '>}</span>
+  <span style='color:#406080; '>}</span>
+<span style='color:#406080; '>}</span></pre>
+        //Explain//loops using an example process from everyday life, for example//'brushing your teeth'.
+      </p>
+      <p>
+        //Explain the difference between accessing data from arrays and object literals.
+      </p>
+      <p>
+        //Explain what functions are and why they are useful.
+      </p>
+
+    </article>
+
+  </div>
+</body>
+</html>
