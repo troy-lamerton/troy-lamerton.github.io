@@ -61,11 +61,12 @@ article > p {
   font-family: 'PT Serif', serif;
 }
 
-article code {
+article pre  > code {
   font-size: 0.9em;
+  border: 1px solid #a3cce3;
 }
 
-pre.example {
+code.example {
   width: 50%;
   line-height: 145%;
   margin-left: auto;

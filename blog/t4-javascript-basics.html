@@ -35,15 +35,17 @@
       <h4>7 April 2016</h4>
       
       <p>
-        A website without javascript is like a house without electricity. You can walk around the house and it looks nice, but if you try to turn anything on, nothing happens.
-        <br>Javascript is the most like a traditional programming language when it is compared to HTML and CSS. When it comes to a website, the HTML is the foundational structure and CSS is the aesthetics. Javascript powers the interactive parts of websites. When you open your notifications on Facebook or expand a tweet on Twitter, it's most likely Javascript that's at work.
+        A website without javascript is like a house without electricity. You can walk around the house and it looks nice, but you can't turn any gadgets on, and after a while you'd rather be somewhere else.
+      </p>
+      <p>
+        Javascript is the most like a traditional programming language when compared to HTML and CSS. HTML is the foundational structure and CSS is the aesthetics. Javascript powers the interactive parts of websites. When you open your notifications on Facebook or expand a tweet on Twitter, it's most likely Javascript that's at work.
       </p>
       <p>
         The uniqueness of Javascript (compared to HTML and CSS) is how it can make decisions about what to do. This is like waking up in the morning. Depending on a few conditions will affect what you do. Am I working this morning? Do I have nothing on? Am I still tired from last night? If I [have work] I'll [get up], otherwise I will not [get up] and if I am also [tired from last night] I will [sleep in].
       </p>
       <p>
         In Javascript this looks like:
-        <pre class="example" style='color:#000020;background:#f6f8ff;'><code><span style='color:#200080; font-weight:bold; '>var</span> haveWork <span style='color:#308080; '>=</span> <span style='color:#0f4d75; '>false</span><span style='color:#406080; '>;</span>
+        <pre><code class="example" style='color:#000020;background:#f6f8ff;'><span style='color:#200080; font-weight:bold; '>var</span> haveWork <span style='color:#308080; '>=</span> <span style='color:#0f4d75; '>false</span><span style='color:#406080; '>;</span>
 <span style='color:#200080; font-weight:bold; '>var</span> tiredStill <span style='color:#308080; '>=</span> <span style='color:#0f4d75; '>true</span><span style='color:#406080; '>;</span>
 
 wakeUp <span style='color:#308080; '>=</span> <span style='color:#200080; font-weight:bold; '>function</span> <span style='color:#308080; '>(</span><span style='color:#308080; '>)</span> <span style='color:#406080; '>{</span>
@@ -56,9 +58,24 @@ wakeUp <span style='color:#308080; '>=</span> <span style='color:#200080; font-w
     <span style='color:#406080; '>}</span>
   <span style='color:#406080; '>}</span>
 <span style='color:#406080; '>}</span></code></pre>
-        //Explain//loops using an example process from everyday life, for example//'brushing your teeth'.
       </p>
       <p>
+        How about doing something repetitive though?
+        <br>Could something like painting a picketed fence be explained in Javascript? Sure can! First we need to know how to paint one picket. We will paint one picket and then another and so on. But we also need to know when to stop painting pickets or we'll have angry neighbours to deal with. We need to stop when there are no more pickets to paint. While there are more pickets to paint, paint another picket.
+      </p>
+      <p>
+        In Javascript this looks like:
+        <pre><code class="example" style='color:#000020;background:#f6f8ff;'><span style='color:#200080; font-weight:bold; '>while</span> <span style='color:#308080; '>(</span>picketsLeft <span style='color:#308080; '>>=</span> <span style='color:#008c00; '>1</span><span style='color:#308080; '>)</span> <span style='color:#406080; '>{</span>
+
+  <span style='color:#595979; '>//Paint the picket upwards</span>
+  <span style='color:#595979; '>//Paint a stroke downwards</span>
+  <span style='color:#595979; '>//Fill in the gaps</span>
+  
+  picketsLeft<span style='color:#308080; '>--</span><span style='color:#406080; '>;</span>
+<span style='color:#406080; '>}</span><span style='color:#406080; '>;</span></code></pre>
+      </p>
+      <p>
+        Objects and arrays 
         //Explain the difference between accessing data from arrays and object literals.
       </p>
       <p>
