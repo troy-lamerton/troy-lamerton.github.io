@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Troy Lamerton's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" type="text/css" />
+  <!-- Font for blog content -->
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../styles/main.css" type="text/css" />
+</head>
+<body>
+  <div class="container">
+
+    <header class="top row">
+      <div class="two-thirds column">
+        <img class="inline" src="http://www.gravatar.com/avatar/0eb38fc6ee95b244b8d45757ee242763" alt="Yep, that's my face"/>
+        <h1 class="inline">Troy Lamerton</h1>
+      </div>
+      <div class="one-third column social">
+        <span><a class="button" href="https://github.com/troy-lamerton/"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />GitHub</a></span>
+        <br><span><a class="button" href="https://www.twitter.com/troylamerton"><img src="https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO.png" alt="Twitter" />Twitter</a></span>
+      </div>
+    </header>
+
+    <nav class="navbar row">
+        <a class="one-third column" href="http://troy-lamerton.github.io/">Home</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/tech.html">Tech posts</a>
+        <a class="one-third column" href="http://troy-lamerton.github.io/blog/culture.html">Cultural posts</a>
+    </nav>
+
+    <article class="row">
+
+      <h3>Problem Solving</h3>
+      <h4>16 April 2016</h4>
+      
+      <p>
+        I encountered a simple problem this week while programming the basic movement of the racer game. The move button was definately clicked, the move function was called, but there was an error and the car wouldn't move.
+      </p>
+      <p>
+        I had implememnted many changes since the last test so I couldn't be sure where the error was coming from. The first thing I did was revert a lot of these changes to the last working version. One by one I reintroduced the changes until I got the error. Aha! It was to do with accessing the position of a car. After slowly reading through all the related code twice, I noticed a subtle typo 'positon'...
+      </p>
+      <p>
+        Going through the problem solving process I felt determined to find a solution. I think I was too confident in parts of my code that when checking them I read over the 'positon' typo without seeing it. I learnt that sometimes it's best to check the basics before assuming the problem is something complex.
+      </p>
+      <p>
+        Another problem I encountered this week was in trying to reduce the lines of code for the two player racer game. It looked liked I would need to write code for player one and player two seperately, referencing the correct players variables. I realised I could call functions with a player number and then use this player number to access an array.
+      </p>
+      <p>
+        Using Google I refreshed how to make an array of objects. Now the functions were able to take the player number and use it to move the player etc. From this I reinforced the idea that there is almost always a way to avoid repeating oneself in programming.
+      </p>
+      <p>
+        There are many problem solving techniques and below I rate my confidence with each of them.
+        <br><b>Pseudocode:</b> I made use of pseudocoding to plan the logical steps of a few functions this week.
+        <br><b>Trying something:</b> When a project is quite simple I don't mind trying something out to see if it works. Larger projects I am more cautious and use other methods.
+        <br><b>Rubber ducky method:</b> I haven't tried pretending to talk to a rubber ducky yet.
+        <br><b>Reading error messages:</b> This is extremely useful for me. I often understand what the error means and I use this to know what the problem is.
+        <br><b>Console.logging:</b> Always when I can't find the error I place a lot of console.logging, but usually it just rules out a few things without pointing out the cause.
+        <br><b>Googling:</b> In this learning phase, a lot of our problems have been solved before. I've found Googling to be useful and am confident in how to ask the right questions.
+        <br><b>Asking your peers for help:</b> I solve most issues with the above methods but will ask my peers before asking coaches.
+        <br><b>Asking coaches for help:</b> Once I've exhausted all other avenues, I ask coaches how to solve the problem.
+        <br><b>Improving your process with reflection:</b> I don't yet have a habit of reflecting on my process. I feel like I benefit from reflection immediately after completing something, but not so much the next day.
+      </p>
+      <p>
+        <b>Manipulating Javascript arrays</b>
+        <br><em>.map()</em> is for creating an array by adjusting every element, in the same way.
+        <br><em>.filter()</em> creates a new array from all the element in our array that follow a given rule. This could be used for filtering a general list of people to only the people that said yes to having a drivers license.
+        <br><em>.reduce()</em> is great for adding up all the values in an array. It runs a function on the first value and then runs it for the result and the next value, and so on.
+      </p>
+    </article>
+
+  </div>
+</body>
+</html>
