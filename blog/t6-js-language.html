@@ -31,17 +31,47 @@
     </nav>
 
     <article class="row">
-      <h3>Blog post title</h3>
-      <h4>Day Month Year</h4>
+      <h3>Punctuating in the Javascript language</h3>
+      <h4>25 April 2016</h4>
       
       <p>
-        Content.....
+        Every programming language has a bunch of different grouping characters to tell the computer how to treat a group of code.
       </p>
       <p>
-        Content.....
+        Here are some of the grouping characters used in Javascript and all their possible uses.
+        <h5>Parentheses ( )</h5>
+        Parentheses are used before a function's body to take in parameters and before a loop or <code>if</code> statement to determine whether the code will run.
+        <ul>
+          <li>When writing a function, between the parentheses, parameters can receive values. <code>function averageScore (sumOfScores, numberOfScores) {...}</code></li>
+          <li>Functions use parentheses to run with parameters e.g. <code>whichIsBigger(12.5, 12.459)</code>.</li>
+          <li>Just like in mathematics, they can be used to prioritise calculations. <code> (4 + 2) / 3 == 2</code></li>
+        </ul>
       </p>
       <p>
-        Content.....
+        <h5>Brackets [ ]</h5>
+        Brackets are often used to store and retrieve items from lists (arrays).
+        <ul>
+          <li>Storing items in an array, the array is indicated by square brackets. <code>var myArray = [1, 2, 4, 8];</code></li>
+          <li>Getting a value from an array uses square brackets. <code>myArray[0]</code> will return the number 2.</li>
+          <li>Similar to getting a value from an array, bracket notation gets properties from inside objects. <code>ourDog = {dogName: "Spark", breed: "Beagle"}; ourDog["dogName"]</code> returns "Spark"</li>
+        </ul>
+      </p>
+      <p>
+        <h5>Braces { }</h5>
+        Braces enclose blocks of code to be run for functions, loops and <code>if</code> statements. They also group object literals.
+        <ul>
+          <li>The <code>ourDog = {dogName: ..., ...}</code> object literal above is grouped by its braces</li>
+          <li>Braces enclose blocks of code for functions. <code>function bigCodeBlock () {/* do something important */}</code></li>
+        </ul>
+      </p>
+      <p>
+        <h5>'Single' and "doubles" quotes</h5>
+        A pair of single quotes 'content here' and double quotes "content here" can be used interchangeably with Javascript not noticing the difference.
+        <ul>
+          <li>Quotes surround simple text, e.g. <code>var myName = "Troy";</code>.</li>
+          <li>They can also be used to get values from an object literal - using bracket notation. <code>ourDog['dogName']</code></li>
+        </ul>
+        A nifty trick is that the two types of quoting can be combined to do things like have HTML double quotes within Javascript's 'single quotes'.
       </p>
 
     </article>
