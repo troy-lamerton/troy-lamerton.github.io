@@ -31,17 +31,17 @@
     </nav>
 
     <article class="row">
-      <h3>Blog post title</h3>
-      <h4>Day Month Year</h4>
+      <h3>Javascript Scope</h3>
+      <h4>8 May 2016</h4>
       
       <p>
-        Content.....
+        Scope is an important concept in programming. Like Russian dolls, there is the largest doll, the global scope that the whole program can use. Inside it can be many smaller dolls, local scopes, with bits only that part of the program can access.
       </p>
       <p>
-        Content.....
+        A section of code can create variables and other functions that only that section can use. This is useful if you have, for example, a function that calculates the total height of a group of people. It has a total height variable that it adds the height of each person to. The first time it's used, all goes to plan, and the total height of the people is thrown away once the function completes. Now when the function is called again, because the total height variable is local to the function, it will start at zero. If local scope didn't exist, after a variable has been used, it would have to be reset every time.
       </p>
       <p>
-        Content.....
+        In Javascript, there are some nuances when it comes to scope. Variables created in code blocks like if statements are in the global scope.
       </p>
 
     </article>
